@@ -1,113 +1,72 @@
 #summary Presentation of the jmxf library
 
-                         jmxf library
+= Jmxf library =
+
+
+== Introduction ==
+
+Jmxf is an open source Java library. The objective is to have a pure Java library that can be used to decode MXF video files. It doesn't depend on any external libraries, making it easy to use on any kind of architecture and/or operating system. This library is free software, it is possible to redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation (see the GNU General Public License for more details).
+
+We decided to match our architecture to the one defined in the ffmpeg project `[`1`]`. This decision allows us to simplify the conversion of existing reliable codecs and formats library decoding written in C to Java. The MXF format decoding is assured by some classes converted from the C version of MXF decoder of the ffmpeg project. The Mpeg2 codec is taken from the jffmpeg project `[`2`]`.
 
 
 
-= Introduction =
+== MXF/D10 file format ==
 
-Jmxf is an open source Java library. The objective is to have a pure Java
-library that can be used to decode MXF video files. It doesn't depend on any
-external libraries, making it easy to use on any kind of architecture and/or
-operating system. This library is free software, it is possible to redistribute 
-it and/or modify it under the terms of the GNU General Public License as 
-published by the Free Software Foundation (see the GNU General Public License 
-for more details).
+Material eXchange Format (MXF) is a container format for professional digital video and audio media defined by a set of SMPTE standards. It supports a number of different streams of coded "essence", encoded with any of a variety of codecs, together with a metadata wrapper which describes the material contained within the MXF file.
 
-We decided to match our architecture to the one defined in the ffmpeg 
-project [1]. This decision allows us to simplify the conversion of existing 
-reliable codecs and formats library decoding written in C to Java. The MXF 
-format decoding is assured by some classes converted from the C version of MXF
-decoder of the ffmpeg project. The Mpeg2 codec is taken from the jffmpeg 
-project [2].
+This library targets the SMPTE D10 format. it is composed of MPEG-2 Video 4:2:2 I-frame only and 8 channel AES3 audio streams. These AES3 audio usually contain 24 bit PCM audio samples. It is possible to find video bitrates of 30, 40 and 50 MBit/s.
 
 
 
-= MXF/D10 file format =
+== Library architecture ==
 
-Material eXchange Format (MXF) is a container format for professional digital 
-video and audio media defined by a set of SMPTE standards. It supports a number 
-of different streams of coded "essence", encoded with any of a variety of 
-codecs, together with a metadata wrapper which describes the material contained 
-within the MXF file.
+The library replicate the ffmpeg project architecure. The idea is to facilitate the conversion of existing C decoding libraries to Java. It proposes three main packages.
 
-This library targets the SMPTE D10 format. it is composed of MPEG-2 Video 4:2:2 
-I-frame only and 8 channel AES3 audio streams. These AES3 audio usually contain 
-24 bit PCM audio samples. It is possible to find video bitrates of 30, 40 and
-50 MBit/s.
+  * uk.ac.liv.app : This package provides a set of standalone applications that demonstrate how the library can be used to manage known file formats.  
+    * !ExtractAudio extracts an uncompressed audio wave file from an MXF file.   
+    * !ExtractFrames extracts a set of PNG frames from an MXF file.
 
-
-
-= library architecture =
-
-The library replicate the ffmpeg project architecure. The idea is to facilitate
-the conversion of existing C decoding libraries to Java. It proposes three main 
-packages.
-
-- uk.ac.liv.app : This package provides a set of standalone applications that 
-  demonstrate how the library can be used to manage known file formats.
-  
-   * ExtractAudio extracts an uncompressed audio wave file from an MXF file.
+  * uk.ac.liv.ffmpeg.format : This package regroups all the classes and methods we need to use to parse and decode video formats
+    * AVFormatContext is the main class which will store information parsed from the file.    
+    * AVInputFormat is the generic format decoder that needs to be extended to create a new format decoder.    
+    * uk.ac.liv.app.ffmpeg.format.mxf stores the classes needed to decode MXF, the main class is Demux which extends AVInputFormat. 
    
-   * ExtractFrames extracts a set of PNG frames from an MXF file.
-
-- uk.ac.liv.ffmpeg.format : This package regroups all the classes and methods 
-  we need to use to parse and decode video formats
-
-  * AVFormatContext is the main class which will store information parsed from
-    the file.
-    
-  * AVInputFormat is the generic format decoder that needs to be extended to
-    create a new format decoder.
-    
-  * uk.ac.liv.app.ffmpeg.format.mxf stores the classes needed to decode MXF, 
-    the main class is Demux which extends AVInputFormat.
-    
-- uk.ac.liv.ffmpeg.codecs : This package regroups all the classes and methods 
-  we need to use to parse and decode audio and video codecs.
-  
-  * AVCodecContext stores the main codec configuration, initialized from the
-    parsed file.
-    
-  * AVCodec is the generic class for the codecs, it needs to be extended to
-    create a new codec implementation.
-    
-  * uk.ac.liv.ffmpeg.codecs.mpeg12 is the codec used to decode MPEG-2 binary
-    datas and produce RGB frames. The main class is Mpeg12. Most of the code
-    comes from jffmpeg [2].
-     
-  * uk.ac.liv.ffmpeg.codecs.pcm is the audio codec used in MXF files.  
+  * uk.ac.liv.ffmpeg.codecs : This package regroups all the classes and methods we need to use to parse and decode audio and video codecs.  
+    * AVCodecContext stores the main codec configuration, initialized from the parsed file.    
+    * AVCodec is the generic class for the codecs, it needs to be extended to create a new codec implementation.    
+    * uk.ac.liv.ffmpeg.codecs.mpeg12 is the codec used to decode MPEG-2 binary datas and produce RGB frames. The main class is Mpeg12. Most of the code comes from jffmpeg `[`2`]`.     
+    * uk.ac.liv.ffmpeg.codecs.pcm is the audio codec used in MXF files.  
  
  
-= example applications =
+== Example applications ==
 
-  * ExtractFrames: extracts a set of PNG frames from an MXF file
-     usage: java -cp jmxf-0.1.jar uk.ac.liv.app.ExtractFrames test.mxf 0 10
+  * !ExtractFrames: extracts a set of PNG frames from an MXF file
+     usage: java -cp jmxf-0.1.jar uk.ac.liv.app.!ExtractFrames test.mxf 0 10
      
      where
-       - text.mxf is the mandatory video file you want to decode
-       - 0 is the optional first frame you want to decode
-       - 10 is the optional number of frames you want to decode
+      * text.mxf is the mandatory video file you want to decode
+      * 0 is the optional first frame you want to decode
+      * 10 is the optional number of frames you want to decode
 
-  * ExtractAudio: extracts an uncompressed audio wave file from an MXF file
-     usage: java -cp jmxf-0.1.jar uk.ac.liv.app.ExtractAudio test.mxf 0 10
+  * !ExtractAudio: extracts an uncompressed audio wave file from an MXF file
+     usage: java -cp jmxf-0.1.jar uk.ac.liv.app.!ExtractAudio test.mxf 0 10
      
      where
-       - text.mxf is the mandatory video file you want to decode
-       - 0 is the optional first frame you want to decode
-       - 10 is the optional number of frames you want to decode
-       - the frames indices are used to define the range in the file
+      * text.mxf is the mandatory video file you want to decode
+      * 0 is the optional first frame you want to decode
+      * 10 is the optional number of frames you want to decode
+      * the frames indices are used to define the range in the file
      
-   * Multivalent/Fab4 media engine [3][4]: Multivalent is a standalone browser
-     that can be used to display a large range of files. The jmxf library has
-     been wrapped in a media engine, given Multivalent a way to display and
-     render an MXF video file. 
+  * Multivalent/Fab4 media engine `[`3`]``[`4`]`: Multivalent is a standalone browser that can be used to display a large range of files. The jmxf library has been wrapped in a media engine, given Multivalent a way to display and render an MXF video file. 
   
 
+== References ==
 
-[1] http://ffmpeg.org
-[2] http://jffmpeg.sourceforge.net/
-[3] http://multivalent.sourceforge.net/
-[4] http://code.google.com/p/fab4browser/
+  * `[`1`]` http://ffmpeg.org
+  * `[`2`]` http://jffmpeg.sourceforge.net/
+  * `[`3`]` http://multivalent.sourceforge.net/
+  * `[`4`]` http://code.google.com/p/fab4browser/
 
+ 
  
