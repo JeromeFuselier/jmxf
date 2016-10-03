@@ -9,7 +9,7 @@ jmxf is an open source Java library. It provides an API to decode MXF video file
 The JavaDoc for the Api can be found in the github repository : https://github.com/kaldrill/jmxf/tree/master/apidocs
 
 
-[[LibraryPresentation]] is a wiki page that can help you have a global view of the API.
+https://github.com/kaldrill/jmxf/wiki/LibraryPresentation is a wiki page that can help you have a global view of the API.
 
 ## License
 
