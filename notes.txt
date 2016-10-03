@@ -1,0 +1,3 @@
+Maven Package Creation : 
+mvn archetype:generate -DgroupId=uk.ac.liv -DartifactId=jmxf -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false 
+

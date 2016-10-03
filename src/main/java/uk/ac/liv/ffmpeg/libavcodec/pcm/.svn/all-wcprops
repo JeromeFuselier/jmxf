@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/!svn/ver/3470/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavcodec/pcm
+END
+PCMDecode.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/3468/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavcodec/pcm/PCMDecode.java
+END
+PCM_S24LE.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/3426/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavcodec/pcm/PCM_S24LE.java
+END
+PCM_S16LE.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/3426/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavcodec/pcm/PCM_S16LE.java
+END
+PCM.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/!svn/ver/3474/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavcodec/pcm/PCM.java
+END

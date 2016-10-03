@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/!svn/ver/3468/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libswscale
+END
+Rgb2Rgb.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/!svn/ver/3458/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libswscale/Rgb2Rgb.java
+END
+SwsContextClass.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/3458/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libswscale/SwsContextClass.java
+END
+UtilsScale.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/3465/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libswscale/UtilsScale.java
+END
+SwScaleInternal.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/3465/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libswscale/SwScaleInternal.java
+END
+SwsVector.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/!svn/ver/3465/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libswscale/SwsVector.java
+END
+SwScaleUnscaled.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/3468/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libswscale/SwScaleUnscaled.java
+END
+Yuv2Rgb.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/!svn/ver/3468/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libswscale/Yuv2Rgb.java
+END
+SwsContext.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/3468/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libswscale/SwsContext.java
+END
+SwScale.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/!svn/ver/3468/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libswscale/SwScale.java
+END
+SwsFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/!svn/ver/3451/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libswscale/SwsFilter.java
+END

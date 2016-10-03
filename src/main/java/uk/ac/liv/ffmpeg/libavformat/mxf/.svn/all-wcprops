@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/!svn/ver/3470/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavformat/mxf
+END
+Context.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/!svn/ver/3443/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavformat/mxf/Context.java
+END
+KLVPacket.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/3449/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavformat/mxf/KLVPacket.java
+END
+ByteReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/3468/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavformat/mxf/ByteReader.java
+END
+LocalTagEntry.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/3352/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavformat/mxf/LocalTagEntry.java
+END
+BitStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/3352/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavformat/mxf/BitStream.java
+END
+Constants.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/3352/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavformat/mxf/Constants.java
+END
+CodecUL.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/!svn/ver/3352/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavformat/mxf/CodecUL.java
+END
+ByteWriter.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/3352/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavformat/mxf/ByteWriter.java
+END
+Demux.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/3474/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavformat/mxf/Demux.java
+END

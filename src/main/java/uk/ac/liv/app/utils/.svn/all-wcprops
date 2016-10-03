@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/!svn/ver/3470/presto/jmxf/src/main/java/uk/ac/liv/app/utils
+END
+ImagePanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/!svn/ver/3335/presto/jmxf/src/main/java/uk/ac/liv/app/utils/ImagePanel.java
+END
+MXFPlayerFrame.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/!svn/ver/3474/presto/jmxf/src/main/java/uk/ac/liv/app/utils/MXFPlayerFrame.java
+END
+TranscodePNGDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/3474/presto/jmxf/src/main/java/uk/ac/liv/app/utils/TranscodePNGDialog.java
+END
+VideoState.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/!svn/ver/3474/presto/jmxf/src/main/java/uk/ac/liv/app/utils/VideoState.java
+END
+MXFDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/!svn/ver/3474/presto/jmxf/src/main/java/uk/ac/liv/app/utils/MXFDocument.java
+END
+TranscodeWAVDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/3335/presto/jmxf/src/main/java/uk/ac/liv/app/utils/TranscodeWAVDialog.java
+END
+WavImage.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/!svn/ver/3474/presto/jmxf/src/main/java/uk/ac/liv/app/utils/WavImage.java
+END
+MXFFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/!svn/ver/3354/presto/jmxf/src/main/java/uk/ac/liv/app/utils/MXFFilter.java
+END

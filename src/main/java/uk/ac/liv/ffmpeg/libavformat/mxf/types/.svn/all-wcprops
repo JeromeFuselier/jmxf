@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/!svn/ver/3352/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavformat/mxf/types
+END
+UID.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/3352/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavformat/mxf/types/UID.java
+END
+Int32.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/3352/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavformat/mxf/types/Int32.java
+END
+Int64.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/3352/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavformat/mxf/types/Int64.java
+END
+UTF16.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/3352/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavformat/mxf/types/UTF16.java
+END
+Bool.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/3352/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavformat/mxf/types/Bool.java
+END
+Int8.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/3352/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavformat/mxf/types/Int8.java
+END
+Position.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/3352/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavformat/mxf/types/Position.java
+END
+Enum.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/3352/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavformat/mxf/types/Enum.java
+END
+IndexEntry.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/3352/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavformat/mxf/types/IndexEntry.java
+END
+UInt16.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/!svn/ver/3352/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavformat/mxf/types/UInt16.java
+END
+UInt8.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/3352/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavformat/mxf/types/UInt8.java
+END
+Batch.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/3352/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavformat/mxf/types/Batch.java
+END
+DeltaEntry.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/3352/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavformat/mxf/types/DeltaEntry.java
+END
+UIDregexp.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/3352/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavformat/mxf/types/UIDregexp.java
+END
+UInt32.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/!svn/ver/3352/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavformat/mxf/types/UInt32.java
+END
+UInt64.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/!svn/ver/3352/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavformat/mxf/types/UInt64.java
+END
+TimeStamp.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/3352/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavformat/mxf/types/TimeStamp.java
+END
+Int16.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/3352/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavformat/mxf/types/Int16.java
+END
+UMID.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/3352/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavformat/mxf/types/UMID.java
+END

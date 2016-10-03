@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repos/!svn/ver/3470/presto/jmxf/src/main/java/uk/ac/liv/app
+END
+MXFPlayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/!svn/ver/3470/presto/jmxf/src/main/java/uk/ac/liv/app/MXFPlayer.java
+END
+ExtractFrames.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/!svn/ver/3444/presto/jmxf/src/main/java/uk/ac/liv/app/ExtractFrames.java
+END
+ExtractAudio.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/!svn/ver/3468/presto/jmxf/src/main/java/uk/ac/liv/app/ExtractAudio.java
+END

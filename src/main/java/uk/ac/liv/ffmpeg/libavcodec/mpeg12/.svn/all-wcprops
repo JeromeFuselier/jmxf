@@ -1,0 +1,167 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/!svn/ver/3468/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavcodec/mpeg12
+END
+Mpeg2RLTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/3352/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavcodec/mpeg12/Mpeg2RLTable.java
+END
+MpegEncContext.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/3468/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavcodec/mpeg12/MpegEncContext.java
+END
+RLTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/3468/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavcodec/mpeg12/RLTable.java
+END
+MbPTypeVLC.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/!svn/ver/3352/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavcodec/mpeg12/MbPTypeVLC.java
+END
+Mpeg12Data.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/!svn/ver/3427/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavcodec/mpeg12/Mpeg12Data.java
+END
+MpegConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/3468/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavcodec/mpeg12/MpegConstants.java
+END
+ZigZagDirect.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/3429/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavcodec/mpeg12/ZigZagDirect.java
+END
+MotionEstContext.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/!svn/ver/3426/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavcodec/mpeg12/MotionEstContext.java
+END
+PatVLC.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/3352/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavcodec/mpeg12/PatVLC.java
+END
+Mpeg12.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/3474/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavcodec/mpeg12/Mpeg12.java
+END
+VLCTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/3352/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavcodec/mpeg12/VLCTable.java
+END
+ScanTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/3468/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavcodec/mpeg12/ScanTable.java
+END
+MotionVectorVlc.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/3352/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavcodec/mpeg12/MotionVectorVlc.java
+END
+AlternateHorizontalScan.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/!svn/ver/3429/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavcodec/mpeg12/AlternateHorizontalScan.java
+END
+AddressIncrementVlc.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/!svn/ver/3352/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavcodec/mpeg12/AddressIncrementVlc.java
+END
+DiscreteCosineLuminanceVlc.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/!svn/ver/3352/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavcodec/mpeg12/DiscreteCosineLuminanceVlc.java
+END
+MpegVideoEnc.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/3468/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavcodec/mpeg12/MpegVideoEnc.java
+END
+MJpegContext.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/3427/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavcodec/mpeg12/MJpegContext.java
+END
+MpegException.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/3352/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavcodec/mpeg12/MpegException.java
+END
+MbBTypeVLC.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/!svn/ver/3352/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavcodec/mpeg12/MbBTypeVLC.java
+END
+Tables.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/3427/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavcodec/mpeg12/Tables.java
+END
+Picture.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/3468/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavcodec/mpeg12/Picture.java
+END
+Mpeg1Context.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/3352/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavcodec/mpeg12/Mpeg1Context.java
+END
+AlternateVerticalScan.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/!svn/ver/3429/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavcodec/mpeg12/AlternateVerticalScan.java
+END
+DiscreteCosineChrominanceVlc.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repos/!svn/ver/3352/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavcodec/mpeg12/DiscreteCosineChrominanceVlc.java
+END
+Mpeg1RLTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/3352/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavcodec/mpeg12/Mpeg1RLTable.java
+END
+MpegVideo.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/3468/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavcodec/mpeg12/MpegVideo.java
+END

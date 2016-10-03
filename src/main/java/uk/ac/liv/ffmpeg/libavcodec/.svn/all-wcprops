@@ -1,0 +1,203 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/!svn/ver/3470/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavcodec
+END
+AVCodecContextClass.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/3356/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavcodec/AVCodecContextClass.java
+END
+AVSubtitleRect.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/3439/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavcodec/AVSubtitleRect.java
+END
+RateControlContext.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/3468/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavcodec/RateControlContext.java
+END
+AVPicture.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/!svn/ver/3468/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavcodec/AVPicture.java
+END
+RcOverride.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/3354/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavcodec/RcOverride.java
+END
+AVCodecContext.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/3468/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavcodec/AVCodecContext.java
+END
+ImgConvert.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/3468/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavcodec/ImgConvert.java
+END
+ParseContext.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/!svn/ver/3426/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavcodec/ParseContext.java
+END
+MotionEst.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/!svn/ver/3468/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavcodec/MotionEst.java
+END
+AVCodecParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/3468/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavcodec/AVCodecParser.java
+END
+AVSubtitle.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/3439/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavcodec/AVSubtitle.java
+END
+DspUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/!svn/ver/3468/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavcodec/DspUtil.java
+END
+Version.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/!svn/ver/3468/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavcodec/Version.java
+END
+AVCodecParserContext.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/3468/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavcodec/AVCodecParserContext.java
+END
+AVBitStreamFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/!svn/ver/3468/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavcodec/AVBitStreamFilter.java
+END
+AVAudioConvert.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/3439/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavcodec/AVAudioConvert.java
+END
+PutBits.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/!svn/ver/3468/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavcodec/PutBits.java
+END
+Options.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/!svn/ver/3364/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavcodec/Options.java
+END
+DSPContext.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/3468/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavcodec/DSPContext.java
+END
+RateControl.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/!svn/ver/3468/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavcodec/RateControl.java
+END
+AVBitStreamFilterContext.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos/!svn/ver/3468/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavcodec/AVBitStreamFilterContext.java
+END
+UtilsCodec.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/3468/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavcodec/UtilsCodec.java
+END
+AVCodec.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/!svn/ver/3468/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavcodec/AVCodec.java
+END
+AVResampleContext.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/!svn/ver/3439/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavcodec/AVResampleContext.java
+END
+PutBitContext.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/3468/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavcodec/PutBitContext.java
+END
+ResampleContext.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/3439/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavcodec/ResampleContext.java
+END
+RateControlEntry.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/3468/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavcodec/RateControlEntry.java
+END
+AVFrame.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/!svn/ver/3468/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavcodec/AVFrame.java
+END
+GetBitContext.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/3426/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavcodec/GetBitContext.java
+END
+Pthread.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/!svn/ver/3468/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavcodec/Pthread.java
+END
+Bitstream.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/!svn/ver/3468/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavcodec/Bitstream.java
+END
+Predictor.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/!svn/ver/3426/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavcodec/Predictor.java
+END
+AVHWAccel.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/!svn/ver/3468/presto/jmxf/src/main/java/uk/ac/liv/ffmpeg/libavcodec/AVHWAccel.java
+END
